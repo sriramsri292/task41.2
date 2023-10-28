@@ -28,7 +28,7 @@ export default function Forgot() {
       password: data.password
     }
   
-    fetch('https://task41-3m8l.onrender.com/auth/forgotpassword', {
+    fetch('https://task40-2i7g.onrender.com/auth/forgotpassword', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
