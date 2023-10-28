@@ -29,7 +29,7 @@ export default function Login() {
       password: formData.password
     }
     
-    fetch('https://task41-3m8l.onrender.com/auth/signin', {
+    fetch('https://task40-2i7g.onrender.com/auth/signin', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json' // Set the content type to JSON
